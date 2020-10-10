@@ -1,0 +1,156 @@
+@font-face {
+    font-family: LeagueScript;
+    src: url("LeagueScript.otf")
+}
+@font-face {
+    font-family: OstrichRegular;
+    src: url("ostrich-regular.ttf")
+} /* I downloaded fonts and referenced them within my page. Credited source and font downloads are from www.cooltext.com */
+body {
+    background-color:#E6E7E8
+}
+#junnysmiles {
+    font-family: LeagueScript;
+    color: dimgray;
+    font-size: 4em;
+    font-weight: bold;
+    text-align: center;
+}
+#menu {
+    color:black;
+    font-size: 2.3em;
+    text-align:left;
+}
+#rightsidetable {
+    font-family:OstrichRegular;
+    color:dimgray;
+    font-size: 2em;
+    border: none;
+    float:right;
+    padding-right:1%;
+}
+#red {
+    color:red;
+}
+#orange {
+    color:orange;
+}
+#yellow {
+    color:yellow;
+}
+#green {
+    color:green;
+}
+#blue {
+    color:blue;
+}
+#violet {
+    color:violet;
+}
+#cameras {
+    display: block;
+    margin-left: 225px;
+}
+hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+} /* hr CSS style^ is not mine. Credited source is www.css-tricks.com. I simply wanted to make it look nice and blend in with 
+    the look of my page. */
+ul {
+    font-family:OstrichRegular;
+    color:black;
+    font-size:2em;
+    text-align:right;
+    list-style:none;
+}
+.Box {
+    text-align:right;
+    background-color:#E6E7E8;
+    width: 230px;
+    height:380px;
+    overflow:auto;
+    float:right;
+    padding-right:1%;
+}
+.Schoolwork {
+    font-family:OstrichRegular;
+    color:black;
+    font-size:2.3em;
+    text-align:right;
+}
+a:link {
+    color:black;
+    text-decoration:none;
+}
+a:visited {
+    color:black;
+}
+a.assignment3:hover{
+    background-color:white;
+}
+a.lab1:hover {
+    background-color:white;
+}
+a.lab2:hover {
+    background-color:white;
+}
+a.lab3:hover {
+    background-color:white;
+}
+a.ex1:hover {
+    background-color:white;
+}
+a.ex2:hover {
+    background-color:white;
+}
+a.ex3:hover {
+    background-color:white;
+}
+a.ex4:hover {
+    background-color:white;
+}
+a.ex5:hover {
+    background-color:white;
+}
+a:active {
+    color:red;
+}
+#hover{
+    background-color:white;
+}
+#video {
+    font-family: LeagueScript;
+    color: dimgray;
+    font-size: 3.5em;
+    font-weight: bold;
+    text-align: center;
+    margin-left:200px;
+}
+#picture {
+    font-family: LeagueScript;
+    color: dimgray;
+    font-size: 3.5em;
+    font-weight: bold;
+    text-align: center;
+    margin-right:50px;
+}
+#videotable {
+    font-family:OstrichRegular;
+    color:dimgray;
+    font-size: 1.8em;
+    border: none;
+    text-align:center;
+    margin-left:235px;
+    margin-right:auto;
+}
+#picturetable {
+    font-family:OstrichRegular;
+    color:dimgray;
+    font-size: 1.8em;
+    border: none;
+    text-align:center;
+    margin-left:135px;
+    margin-right:auto;
+}
